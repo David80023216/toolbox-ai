@@ -87,8 +87,7 @@ const RESULT_LABELS: Record<string, string> = {
   bio: 'Bio Template', subjects: 'Subject Lines', metaDescription: 'Meta Description',
   paceMinPerMile: 'Pace (min/mile)', weeksToGo: 'Weeks Until Event',
   originalSize: 'Original Size (chars)', minifiedSize: 'Minified Size', saved: 'Characters Saved',
-  rem: 'rem Value', px: 'px Value', count: 'Count',
-  daysUntilBirthday: 'Days Until Birthday',
+  rem: 'rem Value', px: 'px Value',
 };
 
 function formatValue(key: string, value: any): string {

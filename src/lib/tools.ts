@@ -2,7 +2,7 @@ import type { Tool } from '@/data/types';
 import { CATEGORIES } from '@/data/categories';
 import toolsData from '@/data/tools.json';
 
-const ALL_TOOLS: Tool[] = toolsData as Tool[];
+const ALL_TOOLS: Tool[] = toolsData as unknown as Tool[];
 
 export function getAllTools(): Tool[] {
   return ALL_TOOLS;
